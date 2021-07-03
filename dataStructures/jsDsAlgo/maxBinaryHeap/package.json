@@ -1,0 +1,13 @@
+{
+  "name": "maxbinaryheap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rayan Ramirez",
+  "license": "MIT",
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "dependencies": {
+    "jsdoc": "^3.6.7"
+  }
+}
