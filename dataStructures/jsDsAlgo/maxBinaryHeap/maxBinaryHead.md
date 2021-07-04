@@ -2,7 +2,7 @@
  what is a MaxBinaryHeap?
  it is binary tree which parents are always greater than their children
 
-<img src="images/maxBinaryHeap.png" width="400" height="300">
+<img src="images/maxBinaryHeap.png" width="400" height="300"o>
 
 ### Big(0)
 Big (0) | actions
