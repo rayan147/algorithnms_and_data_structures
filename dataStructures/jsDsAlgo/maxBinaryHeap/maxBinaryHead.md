@@ -2,6 +2,4 @@
  what is a MaxBinaryHeap?
  it is binary tree which parents are always greater than their children
 
- ![MaxBinaryHeap]
- (/images/maxBinaryHeap.png)
- Format: ![Alt Text](url)
+ ![MaxBinaryHeap](/images/maxBinaryHeap.png)
