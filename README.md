@@ -37,4 +37,4 @@ it is **0(1)**
       return newArr  // takes space
   }
 ```
-it is **0(n)** 
+it is **0(n)** because the space that is being taken up it is directly proportional to the input **arr**
