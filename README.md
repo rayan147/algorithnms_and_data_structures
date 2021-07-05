@@ -42,7 +42,7 @@ it is **0(n)** because the space that is being taken up it is directly proportio
 ### What is Big O?
 It shows how an algorithm scales based on input size.
 
-<imag src ="https://i.stack.imgur.com/WcBRI.png" width="400" height="300">
+<imag src="https://i.stack.imgur.com/WcBRI.png" width="400" height="300">
 #### O(n2): known as Quadratic complexity
 
 * 1 item: 1 operations
