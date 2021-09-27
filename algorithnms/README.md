@@ -1,2 +1,0 @@
-### Algorithnms List 
-* Karatsuba 

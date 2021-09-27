@@ -105,4 +105,4 @@ class MinBinaryHeap {
 }
 
 const minBinaryHeap = new MinBinaryHeap()
-
+log(minBinaryHeap.heap[minBinaryHeap.size()-1])
