@@ -7,6 +7,7 @@
  *  to the top.
  * @param {Array} arr - The array to be sorted
  * @returns {Array} - The sorted array
+ * @use case - when a list of items is nearly sorted but is not yet
  */
 
 const swap = (arr) => (index1) => (index2) => {
@@ -14,13 +15,17 @@ const swap = (arr) => (index1) => (index2) => {
 }
 
 const bubbleSort = (arr) => {
+    let noSwaps;
     for (let i = 0; i < arr.length; i++) {
+        noSwaps = true;
         for (let j = 0; j < arr.length - i - 1; j++) {
             console.log(arr, arr[i], arr[j+1]);
             if (arr[j] > arr[j + 1]) {
                 swap(arr)(j)(j + 1);
+                noSwaps = false;
             }
         }
+        if (noSwaps) break;
     }
     return arr;
 }
